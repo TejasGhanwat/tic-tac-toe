@@ -3,7 +3,7 @@ import Board from "../../components/Board/index";
 
 function index(props: any) {
   return (
-    <div>
+    <div className='tic-board-wrapper'>
       <Board />
     </div>
   );
