@@ -1,4 +1,12 @@
 .App {
-  height: 95vh;
+  height: 100vh;
   width: 100%;
+  background-image: linear-gradient(
+    to top right,
+    rgb(43, 43, 43),
+    rgb(0, 0, 0)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

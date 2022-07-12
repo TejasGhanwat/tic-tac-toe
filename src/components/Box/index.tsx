@@ -1,9 +1,12 @@
-import React from "react";
 import "./styles.css";
 
 function Box(props: any) {
   return (
-    <div onClick={props.handleClick} className='tic-box'>
+    <div
+      onClick={props.handleClick}
+      className={`tic-box ${props.boxValue === "X" ? "tic-X" : "tic-Y"} 
+      }`}
+    >
       {props.boxValue}
     </div>
   );
